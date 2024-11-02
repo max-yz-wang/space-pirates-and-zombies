@@ -1,0 +1,7 @@
+# Session 0
+
+_Guided by a letter, an order, or even just a whim, for reasons greater than you know - you each arrive at The Nexus; a popular space station in the Cromulon System with a room number 301024 at the forefront of your minds. This station orbits a unique electromagnetic anomaly that allows creatues to communicate directly with one-another without the need for translation. As you enter you each are barraged by a cocktail of sloshed arguments, murky trade deals, and jolly sea-shanties. You can see a gang of rabble-rousing space-pirates celebrating their latest plunder, some space-ninjas playing a heat game of space-mahjong, a clown who has mimed a cage around a crying child who appears to be stuck. As you approach the bar you can spot some space-zombies guzzling down schleem-juice by the space-gallon._
+
+The layout of The Nebula is similar to the Space Needle with a flat disc rotating around a central shaft. In the centre of the room is a massive pillar approximately 10 metres in diameter. Embedded into this feature is a set of elevator doors. The remaining circumference is taken up by a bar table surrounding the pillar. The bartender seems to be incredibly busy as he messily flings around bottles, tubes, chutes, and glasses.
+
+Behind the bar table you notice the wall is lined with pneumatic dumbwaiters which he uses to deliver drinks to different levels and replenishes his stock of clean glasses and spirits.
