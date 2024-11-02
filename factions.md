@@ -1,15 +1,13 @@
 # Factions
 
-## Factions
-
-### Space Pirates (Chaotic Individualistic Faction)
+## Space Pirates (Chaotic Individualistic Faction)
 
 A ruthless and cutthroat faction, the Space Pirates are widely feared for their scrappy tactics and bold manuevers. Every Space Pirate seeks out fame and glory, whether it be through brutal conquest, shrewd betrayals, or running black-market deals, their end goal to become a renowned and feared Space Captain (Cyberpunk Night City Legend). 
 
 **Social Structure**
 
 Doesn’t operate under any larger governing body, typically independent fleets led by a Captain supported by a Navigator, Quartermaster, Boatswain, and Gunner. 
-Conflicts amongst the Space Pirate faction is common with a *Might Makes Right* philosophy. Mutinities and betrayals are commonplace amongst Space Pirate Fleets.
+Conflicts amongst the Space Pirate faction is common with a *Might Makes Right* philosophy. Mutinies and betrayals are commonplace amongst Space Pirates.
 
 **Key Resource: Space-Citron**
 
@@ -53,7 +51,7 @@ Intercepting Trade Convoys
 
 Retrofitting Convoy / Mining Ships for Makeshift Rams and Combat Vessels
 
-### Space Zombies
+## Space Zombies (Neutral Reserved Faction)
 
 A relatively new and divisive faction. The zombies have the strongest bond amongst themselves. They view themselves as pacifists and seek to spread peace by introducing people into their ever-growing intergalactic family. 
 
@@ -91,7 +89,7 @@ Has innate regeneration and Access to Zombie Hivemind
 
 Good with Explosive Weaponry (Danger Close)
 
-### Space Ninjas (Organised Lawful Faction)
+## Space Ninjas (Organised Lawful Faction)
 
 Since the 900th Shinobi Intergalactic War every ninja village and clan has been unified under the 77th Supreme Hokage of the Sound Village. They are the most widespread faction throughout the galaxy thanks to their reputation for honor, efficiency, and discipline. 
 
@@ -135,7 +133,7 @@ Martial Combat and Diplomacy
 
 Technological Prowess and Hacking
 
-### Clowns (Wildcard Neutral Faction)
+## Clowns (Wildcard Neutral Faction)
 
 An ancient people, established long before the Space Pirates and Zombies became a Type II civilisation. Long before the rise of the other factions, they were involved in a great conflict against the machine uprising. The faction was decimated and are rare sight. Their mission is to purge out the remaining digital revenants that survived their great cleansing.
 
