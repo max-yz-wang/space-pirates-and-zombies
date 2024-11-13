@@ -18,6 +18,7 @@ const App: React.FC = () => {
         />
         <Route element={<PageNotFound />} />
       </Routes>
+      <h1>ligma</h1>
     </HashRouter>
   );
 };
