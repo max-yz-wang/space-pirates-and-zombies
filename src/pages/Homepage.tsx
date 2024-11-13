@@ -5,7 +5,7 @@ const Homepage: React.FC = () => {
   return (
     <>
       <div>
-        <h1>wassup</h1>
+        <h1>waszzp</h1>
       </div>
     </>
   );
