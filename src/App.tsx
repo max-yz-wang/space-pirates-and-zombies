@@ -5,9 +5,12 @@ import Homepage from './pages/Homepage';
 import Root from './pages/Root';
 import PageNotFound from './pages/PageNotFound';
 import Factions from './pages/Factions';
+import Sidebar from './components/Sidebar';
+
 const App: React.FC = () => {
   return (
     <HashRouter>
+      <Sidebar></Sidebar>
       <Routes>
         <Route
           path="/"
