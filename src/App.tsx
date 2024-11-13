@@ -21,7 +21,6 @@ const App: React.FC = () => {
           path="/factions"
           element={<Factions />}
         />
-        <h1>ligma</h1>
         <Route element={<PageNotFound />} />
       </Routes>
     </HashRouter>
