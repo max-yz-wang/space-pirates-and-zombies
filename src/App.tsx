@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Root from './pages/Root';
 import PageNotFound from './pages/PageNotFound';
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -18,7 +18,7 @@ const App: React.FC = () => {
         />
         <Route element={<PageNotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
