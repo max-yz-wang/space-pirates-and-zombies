@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/space-pirates-and-zombies/static/css/main.f855e6bc.css",
-    "main.js": "/space-pirates-and-zombies/static/js/main.2d7850db.js",
+    "main.js": "/space-pirates-and-zombies/static/js/main.5179c1df.js",
     "static/js/453.ad6eb26e.chunk.js": "/space-pirates-and-zombies/static/js/453.ad6eb26e.chunk.js",
     "index.html": "/space-pirates-and-zombies/index.html",
     "main.f855e6bc.css.map": "/space-pirates-and-zombies/static/css/main.f855e6bc.css.map",
-    "main.2d7850db.js.map": "/space-pirates-and-zombies/static/js/main.2d7850db.js.map",
+    "main.5179c1df.js.map": "/space-pirates-and-zombies/static/js/main.5179c1df.js.map",
     "453.ad6eb26e.chunk.js.map": "/space-pirates-and-zombies/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.2d7850db.js"
+    "static/js/main.5179c1df.js"
   ]
 }
