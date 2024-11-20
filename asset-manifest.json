@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/space-pirates-and-zombies/static/css/main.f855e6bc.css",
-    "main.js": "/space-pirates-and-zombies/static/js/main.6178d1cf.js",
+    "main.css": "/space-pirates-and-zombies/static/css/main.bd93df5a.css",
+    "main.js": "/space-pirates-and-zombies/static/js/main.60915099.js",
     "static/js/453.ad6eb26e.chunk.js": "/space-pirates-and-zombies/static/js/453.ad6eb26e.chunk.js",
     "index.html": "/space-pirates-and-zombies/index.html",
-    "main.f855e6bc.css.map": "/space-pirates-and-zombies/static/css/main.f855e6bc.css.map",
-    "main.6178d1cf.js.map": "/space-pirates-and-zombies/static/js/main.6178d1cf.js.map",
+    "main.bd93df5a.css.map": "/space-pirates-and-zombies/static/css/main.bd93df5a.css.map",
+    "main.60915099.js.map": "/space-pirates-and-zombies/static/js/main.60915099.js.map",
     "453.ad6eb26e.chunk.js.map": "/space-pirates-and-zombies/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.6178d1cf.js"
+    "static/css/main.bd93df5a.css",
+    "static/js/main.60915099.js"
   ]
 }
