@@ -5,13 +5,14 @@ import Homepage from './pages/Homepage';
 import Root from './pages/Root';
 import PageNotFound from './pages/PageNotFound';
 import Factions from './pages/Factions';
-import Sidebar from './components/Sidebar';
+
 import {
   ThemeProvider,
   useTheme,
   ThemeOptions,
   createTheme,
 } from '@mui/material/styles';
+import PageMenu from './components/PageMenu';
 
 export const themeOptions = createTheme({
   palette: {
@@ -35,7 +36,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={themeOptions}>
       <HashRouter>
-        <Sidebar></Sidebar>
+        <PageMenu></PageMenu>
         <Routes>
           <Route
             path="/"

@@ -19,13 +19,26 @@ const drawerWidth = 200;
 
 const Sidebar: React.FC = () => {
   const [open, setOpen] = React.useState(false);
+  const [displayWidth, setDisplayWidth] = React.useState(window.innerWidth);
+  const handleResize = () => {
+    setDisplayWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <AppBar
         position="fixed"
-        sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        sx={{
+          zIndex: (theme) => theme.zIndex.drawer + 1,
+          alignSelf: 'flex-end',
+        }}
       >
         <Toolbar>
           <Typography
@@ -37,7 +50,7 @@ const Sidebar: React.FC = () => {
           </Typography>
         </Toolbar>
       </AppBar>
-      {window.innerWidth > 600 ? (
+      {displayWidth > 600 ? (
         <div>
           <Box>
             <Drawer
