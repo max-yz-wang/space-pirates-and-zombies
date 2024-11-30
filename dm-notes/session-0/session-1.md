@@ -29,5 +29,12 @@ on the way back they get pulled over asking if they have their pilots license. i
 
 "your travelling in a flimzo zone and your flimbo indicator starts flashing and beeping. what do you have to do in order to continue?"
 
+as you head back towards the glorbulon nebula the NAV system starts flashing, a signal for help from a nearby ship, do you go to help or continue moving on?
+without a boarding module you'll have to dock to their ship the old fashioned way and touch tubes. DC 12 pilot check.
+Once you dock you are immersed in a sea of blood curdling screams, viscera covers the walls with skin and bone burnt onto the ceiling.
+
+You see an oversized praying mantis engorging itself on a body that appears to be blissfully unaware, making snow angels in his own blood.
+
 FTL drive
 a rich merchant has dropped by and needs some escorts to ensure their cargo is secure. join the envoy and ensure nothing happens.
+veigar kinda guy
