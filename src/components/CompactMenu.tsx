@@ -15,15 +15,11 @@ import {
 } from '@mui/material';
 import React, { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import MenuOptions from './MenuOptions';
 
 const CompactMenu: React.FC = () => {
   const [moji, setMoji] = React.useState('👽');
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => {
-    setOpen(!open);
-    console.log('aaa');
-    console.log(open);
-  };
+  const [drawerMenuOpen, setDrawerMenuOpen] = React.useState(false);
 
   React.useEffect(() => {
     switch (Math.floor(Math.random() * 4)) {
@@ -39,46 +35,9 @@ const CompactMenu: React.FC = () => {
     }
   }, []);
   const toggleDrawer = (newOpen: boolean) => () => {
-    setOpen(newOpen);
+    setDrawerMenuOpen(newOpen);
   };
 
-  const DrawerList = (
-    <Box
-      sx={{ width: '100vw', marginTop: '35px' }}
-      role="presentation"
-      onClick={toggleDrawer(false)}
-    >
-      <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem
-            key={text}
-            disablePadding
-          >
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? '<InboxIcon />' : '<MailIcon />'}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem
-            key={text}
-            disablePadding
-          >
-            <ListItemButton>
-              <ListItemIcon>{index % 2 === 0 ? 'a' : 'b'}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-    </Box>
-  );
   return (
     <Box sx={{ flexGrow: 1, height: '35px' }}>
       <div
@@ -99,16 +58,21 @@ const CompactMenu: React.FC = () => {
           color="inherit"
           aria-label="menu"
           sx={{ mr: 2 }}
-          onClick={toggleDrawer(!open)}
+          onClick={toggleDrawer(!drawerMenuOpen)}
           // disabled={open}
         >
           ☰
         </IconButton>
         <Drawer
           elevation={2}
-          open={open}
+          open={drawerMenuOpen}
         >
-          {DrawerList}
+          <div style={{ marginTop: '35px' }}>
+            <MenuOptions
+              drawerMenuOpen={drawerMenuOpen}
+              setDrawerMenuOpen={setDrawerMenuOpen}
+            ></MenuOptions>
+          </div>
         </Drawer>
         <button>spoilers</button>
       </div>

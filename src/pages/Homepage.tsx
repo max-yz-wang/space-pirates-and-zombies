@@ -1,10 +1,12 @@
 import { Box, Button, Typography } from '@mui/material';
 import React, { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Content from '../components/Content';
 
 const Homepage: React.FC = () => {
   return (
     <>
+      <Content></Content>
       <Box
         color="white"
         sx={{ marginLeft: 0, backgroundColor: 'ffffff' }}
@@ -12,19 +14,16 @@ const Homepage: React.FC = () => {
         <Typography
           variant="h5"
           fontWeight={'bolder'}
-          mb={'3vh'}
-        >
-          ligmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-          aaaaaaaaaaaaaaaaaaaaaa {window.innerWidth}
-        </Typography>
+        ></Typography>
         <Typography
           variant="h5"
           fontWeight={'bolder'}
-          mb={'3vh'}
+          color="black"
         >
-          aaaaaaaaaaaaaaaaaaaaaaaaab {window.innerWidth}
+          hello everynyan
         </Typography>
       </Box>
+      aaa
     </>
   );
 };

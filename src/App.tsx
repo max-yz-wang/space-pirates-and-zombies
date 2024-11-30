@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
+import React, { useEffect } from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Root from './pages/Root';
 import PageNotFound from './pages/PageNotFound';
 import Factions from './pages/Factions';
-
+import './index.css';
+import './index.js';
 import {
   ThemeProvider,
   useTheme,
@@ -33,8 +33,34 @@ export const themeOptions = createTheme({
 });
 
 const App: React.FC = () => {
+  const [open, setOpen] = React.useState(false);
+  const [displayWidth, setDisplayWidth] = React.useState(window.innerWidth);
+
+  const [token, setToken] = React.useState<string>(
+    localStorage.getItem('token') as string
+  );
+  const handleResize = () => {
+    setDisplayWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
-    <ThemeProvider theme={themeOptions}>
+    <div
+      className="index"
+      style={
+        displayWidth >= 751
+          ? { display: 'flex', flexDirection: 'row' }
+          : {
+              display: 'flex',
+              flexDirection: 'column',
+            }
+      }
+    >
+      {/* <ThemeProvider theme={themeOptions}> */}
       <HashRouter>
         <PageMenu></PageMenu>
         <Routes>
@@ -47,13 +73,18 @@ const App: React.FC = () => {
             element={<Homepage />}
           />
           <Route
-            path="/factions"
+            path="/setting"
+            element={<Factions />}
+          />
+          <Route
+            path="/setting/:faction"
             element={<Factions />}
           />
           <Route element={<PageNotFound />} />
         </Routes>
       </HashRouter>
-    </ThemeProvider>
+      {/* </ThemeProvider> */}
+    </div>
   );
 };
 

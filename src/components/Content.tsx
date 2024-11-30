@@ -19,7 +19,7 @@ import DesktopMenu from './DesktopMenu';
 
 const drawerWidth = 200;
 
-const PageMenu: React.FC = () => {
+const Content: React.FC = () => {
   const [open, setOpen] = React.useState(false);
   const [displayWidth, setDisplayWidth] = React.useState(window.innerWidth);
   const handleResize = () => {
@@ -32,10 +32,10 @@ const PageMenu: React.FC = () => {
     };
   }, []);
   return displayWidth >= 751 ? (
-    <DesktopMenu></DesktopMenu>
+    <Box sx={{ marginLeft: '350px' }}></Box>
   ) : (
-    <CompactMenu></CompactMenu>
+    <Box sx={{ marginLeft: '0vw' }}></Box>
   );
 };
 
-export default PageMenu;
+export default Content;
