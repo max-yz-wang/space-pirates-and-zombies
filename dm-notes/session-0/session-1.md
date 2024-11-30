@@ -20,3 +20,14 @@ the local space-zoo in the gibraltar sector has a zombification initiative in or
 As you approach travel the zoo you can see a packed crowd gathering around the silverback exhibit. A small child has fallen into the enclosure and the zombie silverback gorilla appears to be encroaching towards it.
 
 The zombie gorilla is quite sophisticated and has read plato's cave. He seeks to leave the establishment by creating a distraction and making a run for it. He's a renowned biologist within the zombie sector and was doing field research until he was captured and stripped of his augments.
+https://www.aidedd.org/dnd/monstres.php?vo=abominable-yeti
+https://www.aidedd.org/dnd/monstres.php?vo=oni
+
+can choose to either help the gorilla to break out - need to fight the zookeeper, or they take the gorilla out and fight him and his allies instead.
+
+on the way back they get pulled over asking if they have their pilots license. if not, they have to report to the space-dmv to take their space-pilots license test.
+
+"your travelling in a flimzo zone and your flimbo indicator starts flashing and beeping. what do you have to do in order to continue?"
+
+FTL drive
+a rich merchant has dropped by and needs some escorts to ensure their cargo is secure. join the envoy and ensure nothing happens.
