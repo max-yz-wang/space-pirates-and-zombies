@@ -38,3 +38,15 @@ You see an oversized praying mantis engorging itself on a body that appears to b
 FTL drive
 a rich merchant has dropped by and needs some escorts to ensure their cargo is secure. join the envoy and ensure nothing happens.
 veigar kinda guy
+
+summary
+helped break some animals out of the zoo went to darmanitan vi to recover a zombie ftl drive in a cave got the doctors notebook hat and jacket
+notebook has coordinates to some temple
+
+got caught piloting without al icense
+2000 vbuck fine and took pilots license exam
+
+then captured a sun and installed a hydroponics system
+
+went to the bar and found a train heist on pandora
+on the way to collecting stuff for the heist found an sos beacon
