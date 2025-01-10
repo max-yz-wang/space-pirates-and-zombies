@@ -58,5 +58,11 @@ You'll need to somehow get your hands on their Nuclear-Powered Amplifier.
 We have contacts with
 DJ Yasuo
 The Travelling Music Circus
+The 1986 Collegiate Michigan Marching Band resurrected
 Grog 'n' Roll
 The Undead Choir
+Adult Gambino
+
+each of them needs some X-factor to improve their music.
+
+DJ Yasuo gets his greatest inspiration during near-death experience in duels, recently he's been in a bit of a rutt as he's gotten too good with his swordfighting and needs a new challenge.
