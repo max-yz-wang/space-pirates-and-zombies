@@ -26,4 +26,11 @@ Space Pirate is looking for a new cutlass to commemorate his recent promotion to
 
 Space Ninja Kojiro has reached the peak of swordsmithing
 
-RAV3 is a planet of the Space Ninja faction. It's an exclusive members-only club that renowned, or infamous individuals can visit to let loose.
+RAV3 is a planet of the Space Ninja faction. It's an exclusive members-only club that
+renowned, or infamous individuals can visit to let loose.
+
+Session Overview
+Players meet DJ Yasuo and hear his plight
+travel to darmanitan VI to fight a yeti
+wins the battle of the bands
+agrees to sponsor the players next time so they can perform and leaves them a ticket to visit RAV3.
